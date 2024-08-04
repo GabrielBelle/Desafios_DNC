@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0px;
@@ -82,6 +82,56 @@ footer {
     background-color: #303030;
     color: #ffffff;
     height: 638px;
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
+}
+
+footer h3 {
+    font-size: 32px;
+    padding-top: 120px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+form {
+    padding-top: 50px;
+}
+
+input {
+    cursor: pointer;
+    width: 508px;
+    height: 60px;
+    margin: 15px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #ffffffc7;
+    font-weight: bold;
+    font-family: 'Raleway' cursive, sans-serif;
+}
+
+button {
+    background-color: #c07212;
+    color: #ffffffd5;
+    cursor: pointer;
+    height: 62px;
+    width: 286px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-family: 'Raleway' cursive, sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+button:hover{
+    background-color: #c27a22fd;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    transform: translateY(-8px);
+    box-shadow: 0px 5px 5px rgba(236, 134, 17, 0.178);
+    transition-duration: 0.6s;
 }
